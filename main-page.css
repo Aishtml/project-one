@@ -1,0 +1,426 @@
+.container {
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .container h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    text-align: center;
+    padding: 8px;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content img {
+    width: 50%;
+    height: 300px;
+  }
+  .text { 
+    margin: 10px;
+    padding: 10px;
+    font-family: monospace;
+    width: 50%;
+    position: relative;
+  }
+  .text h2 {
+    text-align: center;
+  }
+  .text p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  .text a {
+    background-color: lightseagreen;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 45%
+
+  }
+  .text a:hover {
+    background-color: aqua;
+  }
+  .content-one {
+    background-color: grey;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+  }
+  .content-one p {
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+    padding: 20px;
+    
+  }
+  .row .col{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 25%;
+  }
+  .row .col{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 25%;
+    padding-bottom: 10px;
+  }
+  
+  .row .col img {
+    width: 100%;
+  }
+  .row .col p {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    font-size: small;
+  }
+  .row .col h3 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5px;
+  }
+  .row .col a {
+    background-color: lightseagreen;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+  }
+  .row .col a:hover {
+    background-color: aqua;
+  }
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form .form-1 {
+    padding: 10px;
+    padding-right: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  .form .form-1 h3, p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .form .form-1 input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .form .form-1 input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .form .form-1 input[type="hidden"] {
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .form .form-1 textarea {
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .form .form-1 input[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .form .form-1 input[type="submit"]:hover {
+    background-color: lightseagreen;
+  }
+  .footer{
+    background-color: black;
+    color: white;
+  }
+  .footer footer p {
+    margin-top: 20px;
+    padding: 8px;
+  }
+@media(max-width:500px) {
+  .container {
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .container h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: center;
+    padding: 5px;
+  }
+  .content {
+    display: inline;
+  }
+  .content img {
+    width: 100%;
+  }
+  .content h2, a{
+    text-align: center;
+  }
+  .content .text {
+    padding: 1px;
+  }
+  .content-one {
+    background-color: grey;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+  }
+  .content-one p {
+    padding: 20px;
+    text-align: center;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 20px;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .row .col{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 50%;
+  }
+  .row .col{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  
+  .row .col img {
+    width: 100%;
+  }
+  .row .col p {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    font-size: small;
+  }
+  .row .col h3 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5px;
+  }
+  .row .col a {
+    background-color: lightseagreen;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+  }
+  .row .col a:hover {
+    background-color: aqua;
+  }
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form .form-1 {
+    padding: 5px;
+    padding-right: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  .form .form-1 h3, p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .form .form-1 input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .form .form-1 input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .form .form-1 input[type="hidden"] {
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .form .form-1 textarea {
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .form .form-1 input[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .form .form-1 input[type="submit"]:hover {
+    background-color: lightseagreen;
+  }
+  .footer{
+    background-color: black;
+    color: white;
+  }
+  .footer footer p {
+    margin-top: 20px;
+    padding: 5px;
+  }
+}
+@media(max-width:800px) {
+  .container {
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .container h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: center;
+    padding: 5px;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content img {
+    width: 50%;
+    height: 250px;
+  }
+  .text { 
+    margin: 10px;
+    padding: 10px;
+    font-family: monospace;
+  }
+  .text p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  .text a {
+    background-color: lightseagreen;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+  }
+  .text a:hover {
+    background-color: aqua;
+  }
+  .content-one {
+    background-color: grey;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+  }
+  .content-one p {
+    padding: 20px;
+    text-align: center;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+    padding: 20px;
+    
+  }
+  .row .col{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 50%;
+  }
+  .row .col{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  
+  .row .col img {
+    width: 100%;
+  }
+  .row .col p {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    font-size: small;
+  }
+  .row .col h3 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5px;
+  }
+  .row .col a {
+    background-color: lightseagreen;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+  }
+  .row .col a:hover {
+    background-color: aqua;
+  }
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form .form-1 {
+    padding: 5px;
+    padding-right: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  .form .form-1 h3, p {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .form .form-1 input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .form .form-1 input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .form .form-1 input[type="hidden"] {
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .form .form-1 textarea {
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .form .form-1 input[type="submit"] {
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
+    margin: 10px;
+  }
+  .form .form-1 input[type="submit"]:hover {
+    background-color: lightseagreen;
+  }
+  .footer{
+    background-color: black;
+    color: white;
+  }
+  .footer footer p {
+    margin-top: 20px;
+    padding: 5px;
+  }
+}
+
